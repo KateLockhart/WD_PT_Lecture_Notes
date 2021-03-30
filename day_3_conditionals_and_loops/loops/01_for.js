@@ -47,6 +47,21 @@ let word = "Fantastic";
 for (let i = 0; i < word.length; i++) {
     console.log(word[i]);
 }
+
+/*
+CHALLENGE
+************
+
+    - make a for loop where you add up all the numbers from 1 to 25 (should equal 325)
+*/
+let sum = 0;
+
+for (let i = 1; i <= 25; i++) {
+    sum += i;
+}
+
+console.log(sum); //325
+
 //*word[i] is needed or the value of the letters index is the string is printed versus the letter
 
 //*lead into for in/of loops

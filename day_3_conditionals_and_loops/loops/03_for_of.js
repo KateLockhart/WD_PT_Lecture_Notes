@@ -25,9 +25,9 @@ for (activity of hobbyArray) {
 };
 
 // Another example:
-let Tiny = ['a chihuahua', 'a chucky 10 lbs', 'adorable'];
-for (aspect of Tiny) {
-    console.log(`Tiny is ${aspect}.`)
+let tiny = ['a chihuahua', 'a chucky 10 lbs', 'adorable'];
+for (info of Tiny) {
+    console.log(`Tiny is ${info}.`)
 };
 
 
