@@ -1,0 +1,3 @@
+To create or add a file/folder:
+    -While viewing the VSC file explorer, click the add file button(the first icon that appears next to the folder name on the left) or the add folder button, name it
+    -In the VSC file explorer, right click a folder or section and select the "New File" or "New Folder" from the top of the menu

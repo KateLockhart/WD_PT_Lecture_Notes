@@ -41,7 +41,7 @@ if (temp >= 80) {
 let userName = "myUsername";
 let password = "myPassword";
 
-if (userName === "myUserName" && password === "myPassword") {
+if (userName === "myUsername" && password === "myPassword") {
     console.log(`Welcome back, ${userName}. You're now logged in!`)
 } else if (userName === "myUsername") {
     console.log('Your username is correct, but you have the wrong password.')

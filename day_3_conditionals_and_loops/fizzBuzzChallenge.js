@@ -9,11 +9,7 @@
 //* Gold: Write as a Ternary
 
 // Bronze: If else
-
-
 // Silver: Switch
-
-
 // Gold: Ternary 
 
 let FB = 30;
@@ -30,7 +26,6 @@ if (FB % 3 === 0 && FB % 5 === 0) {
     } else {
     console.log(FB);
     }
-   
 
 // Switch
 let FB = 20;
@@ -49,9 +44,8 @@ switch (true) {
     break;
 } 
 
-
 // Ternary 
-//for(let i=0;i<100;)
+//for(let i=0;i<100; i++)
 let FB = 18;
 // console.log((FB%15?'':'Fizz Buzz')||(FB%3?'':'Fizz')||(FB%5?'':'Buzz')||FB)
 
@@ -60,3 +54,17 @@ let FB = 18;
     : (FB%3 === 0) ? console.log('Fizz')
     : (FB%5 === 0) ? console.log('Buzz')
     : console.log(FB)
+
+// Spicy Loop Challenge:
+// Write a loop that starts at 1 and increments to 30, checking each number against our Fizz Buzz structure and console.log it
+for(i = 1; i <= 30; i++){
+    if (i % 15 === 0) {
+        console.log('Fizz Buzz');
+        } else if(i % 3 == 0){
+        console.log('Fizz'); 
+        } else if (i % 5 == 0){
+        console.log('Buzz');
+        } else {
+        console.log(i);
+        }
+}

@@ -12,7 +12,7 @@ let myDog = {
 for (item in myDog) {
     console.log(item);
     console.log(myDog[item]);
-} 
+}
 
 // Another example:
 let object = {
